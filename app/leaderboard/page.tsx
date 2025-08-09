@@ -1,0 +1,1 @@
+export default function Leaderboard(){const rows=[{r:1,u:'guest123',roi:'+18.2%'},{r:2,u:'alphaWolf',roi:'+12.7%'},{r:3,u:'deltaPro',roi:'+9.1%'}]; return(<div className='card'><h2>Leaderboard</h2><table><thead><tr><th>Rank</th><th>User</th><th>ROI</th></tr></thead><tbody>{rows.map(x=>(<tr key={x.r}><td>{x.r}</td><td>{x.u}</td><td>{x.roi}</td></tr>))}</tbody></table></div>)}

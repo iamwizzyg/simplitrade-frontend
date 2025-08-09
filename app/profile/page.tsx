@@ -1,0 +1,1 @@
+export default function Profile(){return(<div className='card'><h2>Profile & Badges</h2><ul><li>First Trade</li><li>10 Profitable Trades</li><li>Weekly Top 10</li><li>Risk Manager</li></ul></div>)}

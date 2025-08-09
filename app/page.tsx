@@ -1,0 +1,1 @@
+export default function Home(){return(<section className='card'><h1>SimpliTrade</h1><p>Learn to Trade First. Practice with demo funds.</p><div style={{display:'flex',gap:12,marginTop:12}}><a className='btn' href='/login'>Get Started</a><a className='btn' href='/dashboard'>Continue as Guest</a></div></section>)}
